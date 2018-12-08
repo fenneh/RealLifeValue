@@ -1,0 +1,8 @@
+## Interface: 80000
+## Title: RealLifeValue
+## Notes: Will convert TheUndermineJournal 3 Day AVG tooltip values to actual monetary values based on WoW Token prices
+## Author: fenneh
+## Version: 0.0.1
+## SavedVariablesPerCharacter: RLVCurrency
+
+RealLifeValue.lua
