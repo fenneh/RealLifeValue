@@ -28,6 +28,19 @@ SlashCmdList['RLVALUE'] = function(msg)
     end    
 end
 
+SLASH_MYRLVALUE1 = '/myrlvalue'
+SlashCmdList['MYRLVALUE'] = function()
+    local monies = GetMoney() / 100
+    tokenGold = C_WowTokenPublic.GetCurrentMarketPrice()
+    gbpExchangeRate = tokenGold / gbpTokenprice
+    euExchangeRate = tokenGold / euTokenPrice
+    usExchangeRate = tokenGold / usTokenPrice
+    gbpRealPrice = monies / gbpExchangeRate
+    euRealPrice = monies / euExchangeRate
+    usdRealPrice = monies / usExchangeRate
+    print ("I am worth £"..gbpRealPrice..", €"..euRealPrice..", $"..usdRealPrice.."")
+end
+
 
 local function OnTooltipSetItem(self)
    local name, link = self:GetItem()
