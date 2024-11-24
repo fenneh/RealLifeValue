@@ -1,7 +1,7 @@
-## Interface: 100205
+## Interface: 110005
 ## Title: RealLifeValue
 ## Notes: Shows the real-world currency value of items based on WoW Token prices
-## Author: Your Name
+## Author: fenneh
 ## Version: 2.0
 ## SavedVariables: RealLifeValueDB
 ## OptionalDeps: TheUndermineJournal, Auctionator
