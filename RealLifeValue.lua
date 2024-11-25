@@ -327,7 +327,7 @@ SlashCmdList['MYRLVALUE'] = function()
     local realPrice = ConvertGoldToRealMoney(playerGold, currentCurrency)
     if realPrice then
         local info = CURRENCIES[currentCurrency]
-        print("|cFF00FF00RealLifeValue:|r Your gold is worth " .. info.symbol .. FormatCurrencyValue(realPrice))
+        print("|cFF00FF00RealLifeValue:|r Your current gold is worth " .. info.symbol .. FormatCurrencyValue(realPrice))
     else
         print("|cFFFF0000RealLifeValue:|r Could not get current token price. Please try again later.")
     end
