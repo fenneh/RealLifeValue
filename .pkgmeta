@@ -1,0 +1,15 @@
+package-as: RealLifeValue
+enable-nolib-creation: no
+
+ignore:
+    - README.md
+    - .gitignore
+    - .git
+    - .vscode
+    - .pkgmeta
+
+license-output: LICENSE.txt
+
+manual-changelog:
+    filename: CHANGELOG.md
+    markup-type: markdown
