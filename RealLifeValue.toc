@@ -1,4 +1,4 @@
-## Interface: 110005
+## Interface: 110007
 ## Title: RealLifeValue
 ## Notes: Shows the real-world currency value of items based on WoW Token prices
 ## Author: fenneh
